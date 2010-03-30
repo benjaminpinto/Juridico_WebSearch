@@ -9,7 +9,7 @@ class ReclamantesController < ApplicationController
       format.xml  { render :xml => @reclamantes }
     end
   end
-
+ 
   # GET /reclamantes/1
   # GET /reclamantes/1.xml
   def show
