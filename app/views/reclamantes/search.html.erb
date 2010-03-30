@@ -1,0 +1,19 @@
+<%= render :partial => 'titulo' %> <% # Chama a partial que centraliza o código de definição de título das páginas %>
+
+<b> Nova pesquisa: </b>
+<%= render :partial => 'pesquisa' %> <% # Chama a partial que contém o campo de pesquisa %>
+<br />
+<br />
+<br />
+<b><i><font size="4" color="red">  Resultado da pesquisa por: <%= @query   %></font></i></b>
+<br>
+<%= link_to 'Voltar', reclamantes_path %>
+<br />
+<br />
+
+<b><i>Total de registros encontrados: </i></b>   <%= @reclamante.length %>
+
+<br />
+<br />
+<br />
+<%= render :partial => 'listarReclamante' %> <% # Chama a partial de listagem de reclamantes %>

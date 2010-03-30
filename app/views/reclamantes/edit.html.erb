@@ -1,0 +1,95 @@
+<%= render :partial => 'titulo' %>
+<br>
+
+<b><i><font size="4" color="red">  Editar reclamante: <%= @reclamante.Nome_Reclamante   %></font></i></b>
+<br>
+<%= link_to 'Exibir', @reclamante %> |
+<%= link_to 'Voltar', reclamantes_path %>
+
+<br>
+<br>
+<% form_for(@reclamante) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :Numero_Ordem %><br />
+    <%= f.text_field :Numero_Ordem %>
+  </p>
+  <p>
+    <%= f.label :Sequencial %><br />
+    <%= f.text_field :Sequencial %>
+  </p>
+  <p>
+    <%= f.label :Nome_Reclamante %><br />
+    <%= f.text_field :Nome_Reclamante %>
+  </p>
+  <p>
+    <%= f.label :Data_Nascimento %><br />
+    <%= f.text_field :Data_Nascimento %>
+  </p>
+  <p>
+    <%= f.label :Nome_Mae %><br />
+    <%= f.text_field :Nome_Mae %>
+  </p>
+  <p>
+    <%= f.label :Nome_Pai %><br />
+    <%= f.text_field :Nome_Pai %>
+  </p>
+  <p>
+    <%= f.label :Endereco %><br />
+    <%= f.text_field :Endereco %>
+  </p>
+  <p>
+    <%= f.label :Complemento %><br />
+    <%= f.text_field :Complemento %>
+  </p>
+  <p>
+    <%= f.label :Bairro %><br />
+    <%= f.text_field :Bairro %>
+  </p>
+  <p>
+    <%= f.label :Cidade %><br />
+    <%= f.text_field :Cidade %>
+  </p>
+  <p>
+    <%= f.label :CEP %><br />
+    <%= f.text_field :CEP %>
+  </p>
+  <p>
+    <%= f.label :UF %><br />
+    <%= f.text_field :UF %>
+  </p>
+  <p>
+    <%= f.label :matricula %><br />
+    <%= f.text_field :matricula %>
+  </p>
+  <p>
+    <%= f.label :Codigo_Funcao %><br />
+    <%= f.text_field :Codigo_Funcao %>
+  </p>
+  <p>
+    <%= f.label :Lotacao %><br />
+    <%= f.text_field :Lotacao %>
+  </p>
+  <p>
+    <%= f.label :CTPS %><br />
+    <%= f.text_field :CTPS %>
+  </p>
+  <p>
+    <%= f.label :serie %><br />
+    <%= f.text_field :serie %>
+  </p>
+  <p>
+    <%= f.label :UF_CTPS %><br />
+    <%= f.text_field :UF_CTPS %>
+  </p>
+  <p>
+    <%= f.label :Local_trabalhado %><br />
+    <%= f.text_field :Local_trabalhado %>
+  </p>
+
+  <p>
+    <%= f.submit 'Atualizar' %>
+  </p>
+<% end %>
+

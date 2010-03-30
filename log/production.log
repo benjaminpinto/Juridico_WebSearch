@@ -1,0 +1,131 @@
+26/08/2009 14:30:47 javax.enterprise.system.core.com.sun.enterprise.v3.server
+FINE: class com.sun.enterprise.v3.services.impl.LogManagerService Init done in 2509 ms
+26/08/2009 14:30:47 javax.enterprise.system.core.com.sun.enterprise.v3.server
+FINE: Init done in 2519 ms
+26/08/2009 14:30:48 com.sun.enterprise.v3.server.DynamicReloadService
+FINE: [Reloader] ReloaderService starting
+26/08/2009 14:30:48 com.sun.enterprise.v3.server.DynamicReloader
+FINE: [Reloader] Preparing list of apps to monitor:
+26/08/2009 14:30:48 com.sun.enterprise.v3.server.DynamicReloadService
+FINE: [Reloader] Started, monitoring every 2 seconds
+26/08/2009 14:30:48 com.sun.enterprise.v3.server.DynamicReloadService
+FINE: [Reloader] Service start-up complete
+26/08/2009 14:30:48 null
+FINE: Host-Host: server aliases [] host null
+26/08/2009 14:30:48 null
+FINE: Host-Host: server aliases [Ljava.lang.String;@36d968dd host null
+26/08/2009 14:30:48 null
+FINE: Context-Host: server path  context com.sun.enterprise.v3.services.impl.ContainerMapper$ContextRootInfo@58da4d10 port 3000
+26/08/2009 14:30:48 null
+FINE: Context-Host: server path  context com.sun.enterprise.v3.services.impl.ContainerMapper$ContextRootInfo@58da4d10 port 3000
+26/08/2009 14:30:48 null
+INFO: Listening on port 3000
+26/08/2009 14:30:48 javax.enterprise.system.tools.admin.org.glassfish.server
+INFO: Admin Console Adapter: context root: /_____admingui
+26/08/2009 14:30:48 com.sun.grizzly.config.GrizzlyServiceListener
+FINE: MAPPER(com.sun.enterprise.v3.services.impl.ContainerMapper@3c60eb5f) REGISTER contextRoot: /__asadmin adapter: com.sun.enterprise.v3.admin.PublicAdminAdapter@7efcc8f0 container: null port: 3000
+26/08/2009 14:30:48 null
+FINE: Context-Host: server path /__asadmin context com.sun.enterprise.v3.services.impl.ContainerMapper$ContextRootInfo@5ec45b2 port 3000
+26/08/2009 14:30:48 null
+FINE: Context-Host: server path /__asadmin context com.sun.enterprise.v3.services.impl.ContainerMapper$ContextRootInfo@5ec45b2 port 3000
+26/08/2009 14:30:48 null
+FINE: GlassFish IPS Root: /Applications/NetBeans/NetBeans 6.7.app/Contents/Resources/NetBeans/ruby2/jruby-1.2.0/lib/ruby/gems/1.8/gems/glassfish-0.9.5-universal-java/..
+26/08/2009 14:30:48 null
+FINE: Admin Console will be downloaded to: /Users/diegocampos/Projetos/Workspace Netbeans/Web/JuridicoWebAdmin/glassfish/lib/install/applications/admingui.war
+26/08/2009 14:30:48 null
+INFO: The Admin Console Application is not yet installed.
+26/08/2009 14:30:48 null
+INFO: Admin Console Adapter: context root: /_____admingui
+26/08/2009 14:30:48 com.sun.grizzly.config.GrizzlyServiceListener
+FINE: MAPPER(com.sun.enterprise.v3.services.impl.ContainerMapper@3c60eb5f) REGISTER contextRoot: /_____admingui adapter: com.sun.enterprise.v3.admin.adapter.AdminConsoleAdapter@650f5b42 container: null port: 3000
+26/08/2009 14:30:48 null
+FINE: Context-Host: server path /_____admingui context com.sun.enterprise.v3.services.impl.ContainerMapper$ContextRootInfo@53307de3 port 3000
+26/08/2009 14:30:48 null
+FINE: Context-Host: server path /_____admingui context com.sun.enterprise.v3.services.impl.ContainerMapper$ContextRootInfo@53307de3 port 3000
+26/08/2009 14:30:48 javax.enterprise.system.tools.admin.org.glassfish.server
+INFO: Admin Console Adapter: context root: /_____admingui
+26/08/2009 14:30:48 com.sun.grizzly.config.GrizzlyServiceListener
+FINE: MAPPER(com.sun.enterprise.v3.services.impl.ContainerMapper@3c60eb5f) REGISTER contextRoot: /__private_asadmin adapter: com.sun.enterprise.v3.admin.PrivateAdminAdapter@239d8e8f container: null port: 3000
+26/08/2009 14:30:48 null
+FINE: Context-Host: server path /__private_asadmin context com.sun.enterprise.v3.services.impl.ContainerMapper$ContextRootInfo@f4326ba port 3000
+26/08/2009 14:30:48 null
+FINE: Context-Host: server path /__private_asadmin context com.sun.enterprise.v3.services.impl.ContainerMapper$ContextRootInfo@f4326ba port 3000
+26/08/2009 14:30:48 null
+FINE: AdminConsoleAdapter is ready.
+26/08/2009 14:30:49 javax.enterprise.system.tools.deployment.org.glassfish.deployment.common
+WARNING: Error scan jar entrytmp/.glassfish/static-cache/gf/glassfish.jarerror in opening zip file
+26/08/2009 14:30:50 javax.enterprise.system.core.com.sun.enterprise.v3.server
+SEVERE: Module type not recognized
+26/08/2009 14:30:50 javax.enterprise.system.core.com.sun.enterprise.v3.server
+SEVERE: There is no installed container capable of handling this application com.sun.enterprise.deploy.shared.FileArchive@65552e83
+26/08/2009 14:30:50 null
+FINE: AdminConsoleAdapter is ready.
+26/08/2009 14:30:50 javax.enterprise.system.core.com.sun.enterprise.v3.server
+SEVERE: Cannot find the application type for the artifact at : /Users/diegocampos/Projetos/Workspace Netbeans/Web/JuridicoWebAdmin
+26/08/2009 14:30:50 javax.enterprise.system.core.com.sun.enterprise.v3.server
+SEVERE: Was the container or sniffer removed ?
+26/08/2009 14:30:50 null
+FINE: AdminConsoleAdapter is ready.
+26/08/2009 14:30:50 javax.enterprise.system.core.com.sun.enterprise.v3.server
+INFO: GlassFish v3  startup time : Static(2362ms) startup services(2409ms) total(4771ms)
+26/08/2009 14:30:50 null
+FINE: AdminConsoleAdapter is ready.
+26/08/2009 14:30:51 null
+INFO: Finished cache creation
+26/08/2009 14:31:07 com.sun.grizzly.config.GrizzlyServiceListener
+FINE: OP_ACCEPT on sun.nio.ch.SelectionKeyImpl@225ae047 attachment: null
+26/08/2009 14:31:07 com.sun.grizzly.config.GrizzlyServiceListener
+FINE: OP_READ on sun.nio.ch.SelectionKeyImpl@1c660dd3 attachment: 1251307867495
+26/08/2009 14:31:07 com.sun.grizzly.config.GrizzlyServiceListener
+FINE: Request: / was mapped to Adapter: com.sun.enterprise.v3.services.impl.ContainerMapper@3c60eb5f
+26/08/2009 14:31:07 com.sun.grizzly.config.GrizzlyServiceListener
+FINE: File not found  /Users/diegocampos/Projetos/Workspace Netbeans/Web/JuridicoWebAdmin/tmp/.glassfish/docroot/
+26/08/2009 14:31:07 com.sun.grizzly.config.GrizzlyServiceListener
+FINEST: flushChannel isAsyncHttpWriteEnabled=false bb=java.nio.HeapByteBuffer[pos=0 lim=891 cap=131072]
+26/08/2009 14:31:07 com.sun.grizzly.config.GrizzlyServiceListener
+FINE: OP_READ on sun.nio.ch.SelectionKeyImpl@1c660dd3 attachment: ThreadAttachment[mode=0, threadName=null, byteBuffer=null, timeout=1251307867549, sslEngine=null, inputBB=null, outputBB=null, attributes={ConnectionCloseHandler=com.sun.grizzly.BaseSelectionKeyHandler$1@6020c402}]
+26/08/2009 14:31:07 com.sun.grizzly.config.GrizzlyServiceListener
+FINE: Request: /favicon.ico was mapped to Adapter: com.sun.enterprise.v3.services.impl.ContainerMapper@3c60eb5f
+26/08/2009 14:31:07 com.sun.grizzly.config.GrizzlyServiceListener
+FINE: File not found  /Users/diegocampos/Projetos/Workspace Netbeans/Web/JuridicoWebAdmin/tmp/.glassfish/docroot/favicon.ico
+26/08/2009 14:31:07 com.sun.grizzly.config.GrizzlyServiceListener
+FINEST: flushChannel isAsyncHttpWriteEnabled=false bb=java.nio.HeapByteBuffer[pos=0 lim=891 cap=131072]
+
+
+Processing ReclamantesController#index (for 127.0.0.1 at 2010-03-29 14:35:08) [GET]
+Rendering template within layouts/reclamantes
+Rendering reclamantes/index
+Completed in 66ms (View: 63, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ReclamantesController#search (for 127.0.0.1 at 2010-03-29 14:35:16) [POST]
+  Parameters: {"commit"=>"Pesquisar", "nome"=>["Benjamin"], "authenticity_token"=>"nEpckZuSBU1916RG2bDyL9w/1VN/Ap+tOAHbOV+Tlqc="}
+Rendering template within layouts/reclamantes
+Rendering reclamantes/search
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/reclamantes/search]
+
+
+Processing ReclamantesController#index (for 127.0.0.1 at 2010-03-29 14:35:21) [GET]
+Rendering template within layouts/reclamantes
+Rendering reclamantes/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/reclamantes]
+
+
+Processing ReclamantesController#index (for 127.0.0.1 at 2010-03-29 14:39:15) [GET]
+Rendering template within layouts/reclamantes
+Rendering reclamantes/index
+Completed in 218ms (View: 3, DB: 38) | 200 OK [http://localhost/]
+
+
+Processing ReclamantesController#search (for 127.0.0.1 at 2010-03-29 14:39:19) [POST]
+  Parameters: {"commit"=>"Pesquisar", "nome"=>["jose"], "authenticity_token"=>"nEpckZuSBU1916RG2bDyL9w/1VN/Ap+tOAHbOV+Tlqc="}
+Rendering template within layouts/reclamantes
+Rendering reclamantes/search
+Completed in 610ms (View: 477, DB: 28) | 200 OK [http://localhost/reclamantes/search]
+
+
+Processing ReclamantesController#show (for 127.0.0.1 at 2010-03-29 14:39:45) [GET]
+  Parameters: {"id"=>"5"}
+Rendering template within layouts/reclamantes
+Rendering reclamantes/show
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://localhost/reclamantes/5]

@@ -1,0 +1,59 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  Numero_Ordem: 1.5
+  Sequencial: 1
+  Nome_Reclamante: MyString
+  Data_Nascimento: MyString
+  Nome_Mae: MyString
+  Nome_Pai: MyString
+  Endereco: MyString
+  Complemento: MyString
+  Bairro: MyString
+  Cidade: MyString
+  CEP: MyString
+  UF: MyString
+  matricula: MyString
+  Codigo_Funcao: 1.5
+  Lotacao: MyString
+  CTPS: MyString
+  serie: MyString
+  UF_CTPS: MyString
+  Local_trabalhado: MyString
+  periodo_inicial1: 2009-07-15
+  periodo_final1: 2009-07-15
+  periodo_inicial2: 2009-07-15
+  periodo_final2: 2009-07-15
+  periodo_inicial3: 2009-07-15
+  periodo_final3: 2009-07-15
+  periodo_inicial4: 2009-07-15
+  periodo_final4: 2009-07-15
+
+two:
+  Numero_Ordem: 1.5
+  Sequencial: 1
+  Nome_Reclamante: MyString
+  Data_Nascimento: MyString
+  Nome_Mae: MyString
+  Nome_Pai: MyString
+  Endereco: MyString
+  Complemento: MyString
+  Bairro: MyString
+  Cidade: MyString
+  CEP: MyString
+  UF: MyString
+  matricula: MyString
+  Codigo_Funcao: 1.5
+  Lotacao: MyString
+  CTPS: MyString
+  serie: MyString
+  UF_CTPS: MyString
+  Local_trabalhado: MyString
+  periodo_inicial1: 2009-07-15
+  periodo_final1: 2009-07-15
+  periodo_inicial2: 2009-07-15
+  periodo_final2: 2009-07-15
+  periodo_inicial3: 2009-07-15
+  periodo_final3: 2009-07-15
+  periodo_inicial4: 2009-07-15
+  periodo_final4: 2009-07-15

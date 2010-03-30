@@ -1,0 +1,2 @@
+module ReclamantesHelper
+end

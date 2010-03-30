@@ -1,0 +1,108 @@
+<%= render :partial => 'titulo' %>
+
+
+<br  />
+
+<b><i><font size="4" color="red">  Detalhes do reclamante: <%= @reclamante.Nome_Reclamante   %></font></i></b>
+
+<br />
+<%# link_to 'Editar', edit_reclamante_path(@reclamante) %> |
+<%= link_to 'Voltar', reclamantes_path %>
+<br />
+<br />
+<br />
+
+<p>
+  <b>Numero ordem:</b>
+  <%=h @reclamante.Numero_Ordem %>
+</p>
+
+<p>
+  <b>Sequencial:</b>
+  <%=h @reclamante.Sequencial %>
+</p>
+
+<p>
+  <b>Nome reclamante:</b>
+  <%=h @reclamante.Nome_Reclamante %>
+</p>
+
+<p>
+  <b>Data nascimento:</b>
+  <%=h @reclamante.Data_Nascimento %>
+</p>
+
+<p>
+  <b>Nome mae:</b>
+  <%=h @reclamante.Nome_Mae %>
+</p>
+
+<p>
+  <b>Nome pai:</b>
+  <%=h @reclamante.Nome_Pai %>
+</p>
+
+<p>
+  <b>Endereco:</b>
+  <%=h @reclamante.Endereco %>
+</p>
+
+<p>
+  <b>Complemento:</b>
+  <%=h @reclamante.Complemento %>
+</p>
+
+<p>
+  <b>Bairro:</b>
+  <%=h @reclamante.Bairro %>
+</p>
+
+<p>
+  <b>Cidade:</b>
+  <%=h @reclamante.Cidade %>
+</p>
+
+<p>
+  <b>Cep:</b>
+  <%=h @reclamante.CEP %>
+</p>
+
+<p>
+  <b>Uf:</b>
+  <%=h @reclamante.UF %>
+</p>
+
+<p>
+  <b>Matricula:</b>
+  <%=h @reclamante.matricula %>
+</p>
+
+<p>
+  <b>Codigo funcao:</b>
+  <%=h @reclamante.Codigo_Funcao %>
+</p>
+
+<p>
+  <b>Lotacao:</b>
+  <%=h @reclamante.Lotacao %>
+</p>
+
+<p>
+  <b>Ctps:</b>
+  <%=h @reclamante.CTPS %>
+</p>
+
+<p>
+  <b>Serie:</b>
+  <%=h @reclamante.serie %>
+</p>
+
+<p>
+  <b>Uf ctps:</b>
+  <%=h @reclamante.UF_CTPS %>
+</p>
+
+<p>
+  <b>Local trabalhado:</b>
+  <%=h @reclamante.Local_trabalhado %>
+</p>
